@@ -98,6 +98,29 @@ input[type="checkbox"] {
     font-size: 28px;
 }
 
+.reset-btn {
+    background-color: #6ec1e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.reset-btn:hover {
+    background-color: #58a9d8;
+}
+
+
 @media (max-width: 768px) {
     .container {
         padding: 20px;

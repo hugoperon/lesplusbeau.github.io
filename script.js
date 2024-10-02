@@ -1,5 +1,6 @@
 const items = document.querySelectorAll('.item');
 const totalAmount = document.getElementById('total-amount');
+const resetButton = document.getElementById('reset-button');
 
 function calculateTotal() {
     let total = 0;
@@ -16,3 +17,12 @@ function calculateTotal() {
 items.forEach(item => {
     item.addEventListener('change', calculateTotal);
 });
+
+function resetSelections() {
+    items.forEach(item => {
+        item.checked = false;
+    });
+    totalAmount.textContent = 0;
+}
+
+resetButton.addEventListener('click', resetSelections);
