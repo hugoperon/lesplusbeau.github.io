@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de Total</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choisissez vos éléments</h1>
+        <ul id="items-list">
+            <h1>Médecine Général</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="400">
+                    Soins (400$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="250">
+                    Prise de sang (250$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="1500">
+                    IRM (1500$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="750">
+                    Radiographie (750$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="550">
+                    Malaise (550$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="1625">
+                    Hypoglycémie / Déshydratation (1625$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="625">
+                    Réanimation cardia-pulmonaire (625$)
+                </label>
+            </li>
+            <h1>Consultation</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="225">
+                    Consultation médicale classique (225$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="375">
+                    Consultation chirurgie esthétique (375$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="315">
+                    Consultation visite médicale (315$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="465">
+                    Consultation d'aptitude sportive (456$)
+                </label>
+            </li>
+            <h1>Chirurgie</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="1125">
+                    Intervention chirurgicale légère (1125$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="1875">
+                    Intervention chirurgicale modérée (1875$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="2625">
+                    Intervention chirurgicale lourde (2625$)
+                </label>
+            </li>
+            <h1>Administratif</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="225">
+                    Transport Médical Urbain (225$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="120">
+                    Chambre d'hospitalisation (120$ / nuits)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="60">
+                    Création dossier médicale (60$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="70">
+                    Analyse en laboratoire (70$)
+                </label>
+            </li>
+            <h1>Psychologie</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="300">
+                    Première consultation (300$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="1875">
+                    PPA (1875$)
+                </label>
+            </li>
+            <h1>Divers</h1>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="75">
+                    Médicament en pharmacie (75$)
+                </label>
+            </li>
+            <li>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="item" data-price="100">
+                    Calendrier EMS (100$)
+                </label>
+            </li>
+        </ul>
+        <div class="total">
+            <h2>Total : <span id="total-amount">0</span> €</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
